@@ -1,0 +1,107 @@
+body {
+  background: #003973; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #003973 , #E5E5BE); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #003973 , #E5E5BE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+form {
+  font-family: Verdana, Arial, sans-serif;
+  margin-left: 33%;
+
+
+  
+  opacity: 0.8;
+  font-size: .8em;
+}
+
+img {
+  margin-left: 33%;
+
+  position: absolute;
+  width:55%;
+  height: auto;
+}
+
+#results {
+  position: absolute;
+  font-size: 1.5em;
+}
+
+#submitButton{
+  font-size: 1.5em;
+  width:500px;
+}
+
+/* Responsive Media Quieres */
+
+@media screen and (max-width : 800px) {
+  form {
+    margin-left: 2%;
+    font-family: Sans-Serif;
+  }
+
+  #results {
+    position: absolute;
+    font-size: 1em;
+  }
+
+  #submitButton{
+    font-size: 2em;
+    width:85%;
+  }
+}
+
+
+
+@media screen and (max-device-width : 480px) {
+  form {
+    margin-left: 2%;
+    font-family: Sans-Serif;
+    font-size: 1.6em;
+  }
+  #results {
+    position: absolute;
+    font-size: 2.1em;
+  }
+
+  #submitButton{
+    font-size: 1.6em;
+    width:95%;
+  }
+}
+
+	@media screen and (max-device-width : 568px) {
+    form {
+      margin-left: 2%;
+      font-family: Sans-Serif;
+      font-size: 1.8em;
+    }
+
+    #results {
+      position: absolute;
+      font-size: 2.3em;
+    }
+
+    #submitButton{
+      font-size: 1.8em;
+      width:95%;
+    }
+  }
+
+  @media screen and (max-device-width : 736px) {
+    form {
+      margin-left: 2%;
+      font-family: Sans-Serif;
+      font-size: 2em;
+    }
+
+    #results {
+      position: absolute;
+      font-size: 2.5em;
+    }
+
+    #submitButton{
+      font-size: 1em;
+      width:95%;
+    }
+  }
